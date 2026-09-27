@@ -1,0 +1,13 @@
+def dedsec_banner(GREEN, CYAN, RESET, BOLD, apply_theme):
+    apply_theme()
+    print(f"{GREEN}{BOLD}")
+    print("██████╗ ███████╗██████╗ ███████╗███████╗ ██████╗")
+    print("██╔══██╗██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝")
+    print("██║  ██║█████╗  ██║  ██║███████╗█████╗  ██║     ")
+    print("██║  ██║██╔══╝  ██║  ██║╚════██║██╔══╝  ██║     ")
+    print("██████╔╝███████╗██████╔╝███████║███████╗╚██████╗")
+    print("╚═════╝ ╚══════╝╚═════╝ ╚══════╝╚══════╝ ╚═════╝")
+    print(f"{RESET}")
+    print(f"{CYAN}{BOLD}Secure Terminal Access Launcher{RESET}")
+    print(f"{GREEN}{'═' * 56}{RESET}")
+    print()
