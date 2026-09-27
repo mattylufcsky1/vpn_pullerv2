@@ -126,7 +126,23 @@ VPN router: Install the OpenVPN .ovpn configuration on a compatible VPN router.
 
 A VPN router can be particularly convenient when multiple devices are involved because the devices can connect to the router over Wi-Fi and use the VPN connection without individually configuring each device.
 
-Examples
+## Examples
+
+SSH wrapper and filter output:
+
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/1.png" width="700" alt="Example 1">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/2.png" width="700" alt="Example 2">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/3.png" width="700" alt="Example 3">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/4.png" width="700" alt="Example 4">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/5.png" width="700" alt="Example 5">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/6.png" width="700" alt="Example 6">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/7.png" width="700" alt="Example 7">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/8.png" width="700" alt="Example 8">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/9.png" width="700" alt="Example 9">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/10.png" width="700" alt="Example 10">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/11.png" width="700" alt="Example 11">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/12.png" width="700" alt="Example 12">
+<img src="opt/secure-scripts/dedsec-labNEW/ssh/13.png" width="700" alt="Example 13">
 
 I have also included several examples showing how the filters and networking detection work in different situations. These examples are intended to demonstrate the type of traffic the script can identify and how the results can differ depending on whether a connection is using P2P, dedicated infrastructure, or a fallback networking method.
 
