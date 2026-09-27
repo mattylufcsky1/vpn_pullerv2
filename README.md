@@ -126,6 +126,16 @@ VPN router: Install the OpenVPN .ovpn configuration on a compatible VPN router.
 
 A VPN router can be particularly convenient when multiple devices are involved because the devices can connect to the router over Wi-Fi and use the VPN connection without individually configuring each device.
 
+I have also included several examples showing how the filters and networking detection work in different situations. These examples are intended to demonstrate the type of traffic the script can identify and how the results can differ depending on whether a connection is using P2P, dedicated infrastructure, or a fallback networking method.
+
+I have added the examples alongside the project so they can be reviewed together with the corresponding filters and configuration.
+
+Important Limitations
+
+The script is primarily useful for traffic that can actually be observed through the VPN interface. Games using dedicated servers, cloud infrastructure, relays, NAT traversal, or encrypted/obfuscated networking may not expose useful peer information.
+
+The IP/API filtering system is intended to reduce infrastructure-related false positives, but it cannot guarantee that every detected connection belongs to a particular game or player. Networking behavior can also change between game modes, updates, platforms, and regions.
+
 ## Examples
 
 SSH wrapper and filter output:
@@ -143,13 +153,3 @@ SSH wrapper and filter output:
 <img src="opt/secure-scripts/dedsec-labNEW/ssh/11.png" width="700" alt="Example 11">
 <img src="opt/secure-scripts/dedsec-labNEW/ssh/12.png" width="700" alt="Example 12">
 <img src="opt/secure-scripts/dedsec-labNEW/ssh/13.png" width="700" alt="Example 13">
-
-I have also included several examples showing how the filters and networking detection work in different situations. These examples are intended to demonstrate the type of traffic the script can identify and how the results can differ depending on whether a connection is using P2P, dedicated infrastructure, or a fallback networking method.
-
-I have added the examples alongside the project so they can be reviewed together with the corresponding filters and configuration.
-
-Important Limitations
-
-The script is primarily useful for traffic that can actually be observed through the VPN interface. Games using dedicated servers, cloud infrastructure, relays, NAT traversal, or encrypted/obfuscated networking may not expose useful peer information.
-
-The IP/API filtering system is intended to reduce infrastructure-related false positives, but it cannot guarantee that every detected connection belongs to a particular game or player. Networking behavior can also change between game modes, updates, platforms, and regions.
